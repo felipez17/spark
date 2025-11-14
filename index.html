@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Spark — Rede Estudantil de Empreendedorismo</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <div class="logo">SPARK</div>
+      <ul class="menu" aria-hidden="false">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#proposito">Propósito</a></li>
+        <li><a href="#impacto">Impacto</a></li>
+        <li><a href="#eventos">Eventos</a></li>
+        <li><a href="#curriculo">Currículo</a></li>
+        <li><a href="#faça-parte">Faça parte</a></li>
+      </ul>
+    </div>
+  </header>
+  <main class="container">
+    <section id="hero" class="hero">
+      <div class="hero-grid">
+        <div>
+          <span class="eyebrow reveal">Rede Estudantil</span>
+          <h1 class="reveal" style="font-weight:800;color:var(--white);">Movendo o empreendedorismo estudantil com visão, conexão e execução.</h1>
+          <p class="lead reveal">O Spark conecta estudantes, projetos e oportunidades — formando líderes que constroem soluções reais nas suas escolas e comunidades.</p>
+          <div class="cta-row reveal">
+            <button class="btn" onclick="document.getElementById('faça-parte').scrollIntoView({behavior:'smooth'})">Quero participar</button>
+            <a class="btn secondary" href="#eventos">Próximos eventos</a>
+          </div>
+          <div class="accent-line reveal"></div>
+        </div>
+        <div class="hero-photo reveal" aria-hidden="true">
+          <img src="assets/IMG_7081.JPG" alt="Foto hero"/>
+        </div>
+      </div>
+    </section>
+    <section id="proposito">
+      <h2 class="reveal">Propósito</h2>
+      <p class="lead reveal">Nossa missão: empoderar jovens para que criem impacto real — por meio de educação prática, rede de apoio e recursos para transformar ideias em projetos sustentáveis.</p>
+      <div class="grid">
+        <div class="card reveal">
+          <div class="thumb"><img src="assets/IMG_7106.JPG" alt="Propósito" style="width:100%;height:100%;object-fit:cover;border-radius:12px"/></div>
+          <h3>Educação prática</h3>
+          <p>Workshops, bootcamps e mentorias que ensinam a executar, não só a estudar.</p>
+        </div>
+        <div class="card reveal">
+          <div class="thumb">Icon / Foto</div>
+          <h3>Rede de Hubs</h3>
+          <p>Presença local em escolas e hubs que apoiam projetos colaborativos.</p>
+        </div>
+        <div class="card reveal">
+          <div class="thumb">Icon / Foto</div>
+          <h3>Impacto mensurável</h3>
+          <p>Medições e relatos que mostram como o Spark transforma realidades.</p>
+        </div>
+      </div>
+    </section>
+    <section id="impacto">
+      <h2 class="reveal">Impacto</h2>
+      <p class="lead reveal">Números, histórias e resultados: queremos mostrar o que aconteceu quando alunos foram encorajados a liderar.</p>
+      <div class="grid">
+        <div class="card reveal">
+          <div class="thumb"><img src="assets/IMG_7122.JPG" alt="Impacto" style="width:100%;height:100%;object-fit:cover;border-radius:12px"/></div>
+          <h3>+120 Hubs</h3>
+          <p>Espalhados por escolas e comunidades em todo o país.</p>
+        </div>
+        <div class="card reveal">
+          <div class="thumb">Foto / Gráfico</div>
+          <h3>+4.500 Estudantes</h3>
+          <p>Participantes de programas e eventos nos últimos 3 anos.</p>
+        </div>
+        <div class="card reveal">
+          <div class="thumb">Foto / Gráfico</div>
+          <h3>Projetos com impacto social</h3>
+          <p>Iniciativas premiadas e implementadas localmente.</p>
+        </div>
+      </div>
+    </section>
+    <section id="eventos">
+      <h2 class="reveal">Eventos</h2>
+      <p class="lead reveal">Calendário de encontros, desafios e workshops. Participe — e traga sua escola.</p>
+      <div class="grid">
+        <article class="card reveal">
+          <div class="thumb"><img src="assets/IMG_7211.JPG" alt="Evento 1" style="width:100%;height:100%;object-fit:cover;border-radius:12px"/></div>
+          <h3>Evento 1</h3>
+          <p>Descrição breve do evento — Data: a definir</p>
+        </article>
+        <article class="card reveal">
+          <div class="thumb"><img src="assets/IMG_7240.JPG" alt="Evento 2" style="width:100%;height:100%;object-fit:cover;border-radius:12px"/></div>
+          <h3>Evento 2</h3>
+          <p>Descrição breve do evento — Data: a definir</p>
+        </article>
+        <article class="card reveal">
+          <div class="thumb"><img src="assets/IMG_7242.JPG" alt="Evento 3" style="width:100%;height:100%;object-fit:cover;border-radius:12px"/></div>
+          <h3>Evento 3</h3>
+          <p>Descrição breve do evento — Data: a definir</p>
+        </article>
+      </div>
+    </section>
+    <section id="curriculo">
+      <h2 class="reveal">Currículo</h2>
+      <p class="lead reveal">Um portfólio dos programas, trilhas de aprendizado e competências que oferecemos.</p>
+      <div class="card reveal">
+        <h3>Trilha Negócios</h3>
+        <p>Metodologias práticas, MVP, validação e apresentação para investidores.</p>
+        <h3>Trilha Produto</h3>
+        <p>Design, prototipagem e testes com usuários.</p>
+      </div>
+    </section>
+
+    <section id="faça-parte">
+      <h2 class="reveal">Faça parte</h2>
+      <p class="lead reveal">Quer abrir um hub, receber materiais ou se inscrever em um programa? Conta pra gente.</p>
+      <div class="grid">
+        <div class="card reveal">
+          <form id="join-form" class="form" onsubmit="handleJoin(event)">
+            <input type="text" id="nome" name="nome" placeholder="Seu nome" required />
+            <input type="email" id="email" name="email" placeholder="Seu melhor e-mail" required />
+            <input type="text" id="escola" name="escola" placeholder="Escola / Cidade (opcional)" />
+            <textarea id="mensagem" name="mensagem" rows="5" placeholder="Como quer participar? (breve)" required></textarea>
+            <div style="display:flex;gap:10px;align-items:center;justify-content:flex-end">
+              <button type="submit" class="btn">Enviar</button>
+            </div>
+          </form>
+          <p style="margin-top:10px;color:var(--muted);font-size:13px">Ao enviar, seu e-mail abrirá no cliente padrão para confirmar o envio. Também podemos integrar com Formspree ou um endpoint se preferir automação.</p>
+        </div>
+        <div class="card reveal">
+          <h3>Contato rápido</h3>
+          <p>Email: <a href="mailto:contato@spark.org">contato@spark.org</a></p>
+          <p>Instagram: @talk2usspark</p>
+          <div style="height:160px;border-radius:10px;background:linear-gradient(90deg,var(--p3),var(--p4));display:flex;align-items:center;justify-content:center;margin-top:12px">
+            <img src="assets/IMG_7267.JPG" alt="Contato" style="width:100%;height:100%;object-fit:cover;border-radius:10px"/>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:12px">
+        <div>© 2025 Spark</div>
+        <div style="color:var(--muted)">Feito com 💜 por Spark • <a href="#proposito">Sobre</a></div>
+      </div>
+    </footer>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
